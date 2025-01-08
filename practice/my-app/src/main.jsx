@@ -1,10 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+
+// import Library from './chapter_03/Library.jsx'
+import Clock from './chaptor_04/Clock'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Clock />
+    <div>아아아</div>
   </StrictMode>,
 )
